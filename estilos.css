@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+/* =========================
+   BOTONES
+========================= */
+.boton, .boton-grande {
+    display: inline-block;
+    background-color: #5a5fd6;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.boton {
+    padding: 12px 22px;
+    font-size: 16px;
+}
+
+.boton-grande {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* =========================
+   PORTADA
+========================= */
+.portada {
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-contenido {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+.portada-contenido h1 {
+    color: #5a5fd6;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.info p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* =========================
+   ACTIVIDADES Y CONCLUSIÓN
+========================= */
+.actividades {
+    padding: 30px;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    background: linear-gradient(135deg, #8e9cff, #b8c6ff);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 0 0 25px 25px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.encabezado p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* BLOQUES */
+.actividad {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px auto;
+    width: 85%;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.actividad h2 {
+    color: #5a5fd6;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* MEJORAS */
+.mejora {
+    background-color: #eef1ff;
+    padding: 15px;
+    border-left: 5px solid #5a5fd6;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* LISTAS */
+.lista {
+    text-align: left;
+    margin: 20px auto;
+    width: 85%;
+    font-size: 16px;
+}
+
+.lista li {
+    margin-bottom: 10px;
+}
+
+/* PIE DE PÁGINA */
+.pie {
+    text-align: center;
+    margin: 40px 0;
+}
